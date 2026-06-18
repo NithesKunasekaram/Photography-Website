@@ -10,6 +10,9 @@ import Footer from "./Components/Footer";
 export default function Home() {
   return (
     <>
+
+    
+
     <Navbar></Navbar>
     <Hero></Hero>
     <PortFolio></PortFolio>
@@ -17,6 +20,8 @@ export default function Home() {
     <Albums></Albums>
     <Booking></Booking>
     <Footer></Footer>
+
+
     
     </>
     
