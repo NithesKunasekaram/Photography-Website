@@ -4,7 +4,7 @@ function Booking() {
 
     return (
         <>
-            <div className="min-h-screen flex items-center justify-center">
+            <div id="bookNow" className="min-h-screen flex items-center justify-center">
                 <form className="w-full max-w-2xl bg-gray-900 p-10 rounded-lg shadow-md">
                     <h2 className="text-2xl font-bold mb-6 text-center">Book Now</h2>
 
@@ -57,5 +57,7 @@ function Booking() {
         </>
     );
 }
+
+
 
 export default Booking;

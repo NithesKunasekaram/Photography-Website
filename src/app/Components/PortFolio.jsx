@@ -5,11 +5,11 @@ function PortFolio() {
     return (
         <>
 
-            <div className="border-t-4 rounded-2xl border-orange-500 p-5">
+            <div id="portfolio" className="border-t-4 rounded-2xl border-orange-500 p-5">
 
                 <h1 className="px-5 text-2xl font-bold mb-4">PortFolio</h1>
 
-                <div className="px-5 grid grid-cols-2 mx-10">
+                <div className="lg:px-5 grid grid-cols-1 lg:grid-cols-2 lg:mx-10">
 
                     <div className="grid grid-cols-1">
 

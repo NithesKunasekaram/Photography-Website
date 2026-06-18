@@ -5,11 +5,11 @@ function About () {
     return (
         <>
 
-        <div className="p-5 grid grid-cols-2">
+    <div id="about" className="lg:p-5 lg:grid grid-cols-2">
 
 
             <div className="">
-                <img src="/camera1.jpg" alt="" className=" h-100 w-full object-cover" />
+                <img src="/camera1.jpg" alt="" className="h-100 w-full object-cover" />
             </div>
 
             <div className="bg-black">

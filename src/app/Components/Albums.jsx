@@ -11,7 +11,7 @@ function Albums() {
 
     return (
         <>
-            <div className="p-5">
+            <div id="albums" className="p-5">
 
                 <h1 className="px-5 text-2xl font-bold mb-4">Albums</h1>
 
@@ -57,7 +57,7 @@ function Albums() {
 
                 {/* <button className="m-8 border rounded-full px-5 py-1">Events</button> */}
 
-                <div className="grid grid-cols-3 px-5 gap-10 mx-25">
+                <div className="grid grid-cols-1 lg:grid-cols-3 lg:px-5 gap-10 lg:mx-25">
 
 
                     <div className="border border-orange-500 rounded-lg p-4">
@@ -168,7 +168,7 @@ function Albums() {
 
                 </div>
 
-                <div className="flex justify-end mx-30 m-7">
+                <div className="flex justify-end lg:mx-30 lg:m-7 mt-5">
 
                     <button className="border p-2 px-10 rounded-lg hover:bg-orange-500">View More</button>
 
