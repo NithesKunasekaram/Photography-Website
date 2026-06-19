@@ -7,7 +7,7 @@ function Footer() {
 
     return (
         <>
-            <div className="flex flex-wrap gap-4 lg:flex lg:justify-between border-t-4 border-orange-500 rounded-2xl p-10 text-gray-300">
+            <div className="flex flex-wrap gap-4 md:justify-between lg:flex lg:justify-between border-t-4 border-orange-500 rounded-2xl p-10 text-gray-300">
 
                 <div className="">
                     <h1 className="">

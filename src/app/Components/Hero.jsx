@@ -42,7 +42,7 @@ export default function Hero() {
       </div>
 
       
-      <div className="relative min-h-[350px] lg:min-h-screen">
+      <div className="relative min-h-[350px] lg:min-h-screen animate-pulse">
         <Image
           src="/Hero2.png"
           alt="Wedding Photography"
